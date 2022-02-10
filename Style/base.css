@@ -1,0 +1,13 @@
+body {
+  font-family: roboto;
+  padding: 3.125rem;
+  margin: 50px;
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+img {
+  width: 300px;
+}

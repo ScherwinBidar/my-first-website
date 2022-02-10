@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My persona Site</title>
+    <title>My personal Site</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+    <div class="backgroundBox">
     <h1>Scherwin Bidar</h1>
     
-    <a href="#contact"><strong>Contact</strong></a>
-    <a href="#biography"><strong>Biography</strong></a>
+    <p>
+        <a href="#contact"><strong>Contact</strong></a>
+        -
+        <a href="#biography"><strong>Biography</strong></a>
+    </p>
     
     <div>
-        <img src="mee.jpeg" alt= "a picture of me"/>
+        <img src="images/me.png" alt= "a picture of me"/>
     </div>
     
-    
-    Ich bin 29 Jahre alt und studiere Informatik.
+    <div class="IntroBox">
+    <p>
+        Ich bin 29 Jahre alt und studiere Informatik. Parallel dazu,
+        absolviere ich derzeit ein Bootcamp bei den Neuen Fischen.
+    </p>
     
     <h2>Skills</h2> 
     <ul>
-        <li>Bischen programmieren</li>
+        <li>Web Development</li>
         <li>Gaming</li>
-        <li>ein bischen Python</li>
+        <li>Ein bischen Python</li>
         <li>BJJ</li>
     </ul>
+    
     <h2>Hobbys</h2>
     <ul>
         <li>BJJ</li>
@@ -34,42 +46,77 @@
         <li>Chillen</li>
         <li>Web Development</li>
     </ul>
-
-    <h2 id="contact">Kontaktinformationen</h2>
-
-    <div>
+</div>
+    
+    <div class="ContactBox">
+        <h2 id="contact">Kontaktinformationen</h2>
         <strong>scherwin1992@outlook.de</strong>
+        <strong>-</strong>
         <strong>01787908217</strong>
     </div>
 
-    <div>
-        <img src="github logo.svg" alt="github logo"/>
-        <a href="https://github.com/ScherwinBidar">Mein Github Orofil</a>
-    </div>
-    <div>
-        <img src="Codepen.png" alt="codepen logo"/>
-        <a href="https://codepen.io/">Codepen Website</a>
-    </div>
-    <div>
-        <img src="linkedin.png" alt="linkedin lgo"/>
-        <a href="https://www.linkedin.com/feed/">Mein linkedin Profil</a>
+    <div class="FlexBox">
+        <div class="card">
+            <p>
+                <img class="imgcard"src="https://nf-assets.vercel.app/github@2x.png" alt="roboter">
+            </p>
+            <p>
+                <h3>Github</h3>
+            </p>
+            See my cool Repos.
+            <p>
+                <a href="www.https://github.com/ScherwinBidar">@myaccount</a>
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                <img class="imgcard"src="/images/Codepen.png" alt="Codepen">
+            </p>
+            <p>
+                <h3>Codepen</h3>
+            </p>
+            See my cool Pens.
+            <p>
+                <a href="https://codepen.io/your-work">@myaccount</a>
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                <img class="imgcard1"src="/images/linkedin.png" alt="roboter">
+            </p>
+            <p>
+                <h3>Linkedin</h3>
+         </p>
+             See my cool contacts.
+            <p>
+                <a href="https://www.linkedin.com/in/scherwin-bidar/">@myaccount</a>
+            </p>
+         </div>
     </div>
 
-    Ihr könnte mich gerne auf den verschiednen Portalen
-    kontaktieren. Ich würde michs sehr freuen, neue
-    Leute kennenzulernen.
+    <div class="goodbyeBox">
+        Ich freue mich, neue Leute auf meinen Profiles willkommen 
+        zu heißen und euch alle kennenzulernen. Klickt einfach auf die links.
+        Euch passiert schon nichts :D
+    </div>
 
-    Ich mache derzeit das Bootcamp bei Neue Fische. 
-    Und studiere auch Informatik.
+    <!-- Der lebenslauf muss noch erweitert werden --> 
+    <div class="Lebenslauf">
+        <h3>Lebenslauf</h3>
+        <ul>
+            <li>2012 Abitur</li>
+            <li>2021 "Intro to Programming" Zertifikat</li>
+            <li>2021 Studium der Angewandten Informatik</li>
+            <li>2022 Neue Fische Bootcamp Full Stack Web Developer</li>
+        </ul>
+    </div>
+
+
+    </div>
+
     
-
-
-
-
-
-    
-   
-
-
 </body>
+
 </html>

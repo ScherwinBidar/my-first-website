@@ -1,0 +1,29 @@
+.Contactbox {
+  margin-top: 50px;
+  border: solid #f7ecde;
+}
+
+.backgroundBox {
+  background-color: #fbf8f1;
+  width: 1400px;
+  padding: 100px;
+  border: solid #f7ecde;
+}
+
+.IntroBox {
+  background-color: #f7ecde;
+  width: 400px;
+  border-radius: 20px;
+  padding: 20px;
+  border: solid #f7ecde;
+}
+
+.goodbyeBox {
+  background-color: #f7ecde;
+  width: 400px;
+  height: 140px;
+  padding: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+  border: solid #f7ecde;
+}
